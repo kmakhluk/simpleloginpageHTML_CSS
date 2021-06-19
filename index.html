@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Login Page</title>
+    <style>
+         body{
+             background-color: black;
+             background-image: url(Coolwallpaper.jpg);
+         }
+         button{
+             background-color: #3cf;
+             width: 100%;
+             color: white;
+             padding: 15px;
+             margin: 10px 0px;
+             border: 10px;
+             border-radius: 15px;
+             cursor: pointer; 
+             font-family: 'Times New Roman', Times, serif;   
+         }
+         button:hover{
+             opacity: none;
+             background-color: teal;
+             color: white;
+         }
+         form{
+             border: 0px solid;
+
+         }
+         h1{
+             font-size: 30px;
+             color: #ff6699;
+             text-align: center;
+         }
+         input[type=text], 
+         input[type=password] 
+         {
+             width: 100%;
+             margin: 8px 0px;
+             padding: 12px 20px;
+             display: inline-block;
+             border: 2px solid white;
+             box-sizing: border-box;
+             border-radius: 50px;
+
+
+         }
+         a{
+             color: white;
+         }
+         a:hover{
+             opacity: 0px;
+             color: rgb(0, 0, 0);
+         }
+         label{
+             color: #4f0761;
+             font-size: 15px;
+         }
+         .container{
+             background: linear-gradient(to bottom, #3cf, #ff6699 100%);
+             padding: 25px;
+             background-color: tomato;
+             border-radius: 10px;
+             text-align: center;
+         }
+         
+    </style>
+</head>
+<body>  <br><br><br><br><br><br><br><br><br>
+    <h1>Login Here</h1>
+    <form>
+        <div class="container">
+            <label>Username:</label>
+            <input type="text" placeholder="Enter Username" name="username" required>
+            <label>Password:</label>
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <button type="submit">Login</button>
+            <a href="#"> Forget Password?</a>
+
+
+
+        </div>
+
+
+
+    </form>
+
+
+
+
+
+
+    
+</body>
+</html>
